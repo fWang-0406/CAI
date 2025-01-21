@@ -1,1 +1,4 @@
 pretrain_models/resnet50.pth filter=lfs diff=lfs merge=lfs -text
+pretrain_models/distilbert-base-uncased/model.safetensors filter=lfs diff=lfs merge=lfs -text
+pretrain_models/bert-base-uncased/model.safetensors filter=lfs diff=lfs merge=lfs -text
+cache0/image_features.pt filter=lfs diff=lfs merge=lfs -text
